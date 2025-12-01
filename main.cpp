@@ -12,7 +12,17 @@ int findMax(const std::vector<int>& list) {
 }
 
 int main() {
-    std::vector<int> numbers = {5, 2, 9, 1, 7};
-    std::cout << "Max: " << findMax(numbers) << std::endl;
+    int n;
+    std::cout << "Enter number of elements: ";
+    std::cin >> n;
+    
+    std::vector<int> numbers(n);
+    std::cout << "Enter elements: ";
+    for (int i = 0; i < n; i++) {
+        std::cin >> numbers[i];
+    }
+    
+    std::cout << "Maximum: " << findMax(numbers) << std::endl;
     return 0;
 }
+
