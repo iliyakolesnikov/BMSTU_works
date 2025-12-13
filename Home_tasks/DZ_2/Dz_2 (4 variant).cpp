@@ -2,7 +2,6 @@
 #include <fstream>
 #include <string>
 #include <limits>
-#include <clocale> // Для настройки локали
 
 using namespace std;
 
