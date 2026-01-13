@@ -1,0 +1,53 @@
+# Объектные файлы
+*.o
+*.obj
+*.ko
+*.so
+*.so.*
+*.dylib
+
+# Исполняемые файлы
+*.exe
+*.out
+*.app
+*.bin
+online_store
+
+# Директория сборки
+/build/
+/cmake-build-debug/
+/cmake-build-release/
+/dist/
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+logs/
+
+# Временные файлы
+*.tmp
+*.bak
+
+# PostgreSQL
+pg_data/
+*.sql.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Прочее
+.cmake/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
